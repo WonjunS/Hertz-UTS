@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#container {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+/* Header */
+header {
+    position: relative;
+    background-color: #000;
+    max-width: 100%;
+    min-width: 30%;
+    height: 80px;
+}
+
+#logo {
+    background-color: white;
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    padding: 20px 0;
+}
+#logo h2 {
+    font-size: 20px;
+    color: green;
+    font-family: Arial;
+    text-align: center;
+    text-shadow: 4px 2px 3px #ffa500;
+}
+#title {
+    width: 500px;
+    margin: 0 auto;
+}
+#title h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial;
+}
+
+/* Delivery details */
+
+#details {
+    width: 100%;
+}
+#details > h2{
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    padding-top: 20px;
+}
+#checkout {
+    margin: 0 auto;
+    width: 1000px;
+}
+#checkout table {
+    width: 800px;
+    margin: 30px auto;
+    margin-left: 100px;
+}
+#checkout table, td {
+    border:1px solid #ccc;
+    border-collapse: collapse;
+}
+#checkout > tr, td, select{
+    padding: 10px;
+    font-size: 17px;
+    font-family: Arial;
+}
